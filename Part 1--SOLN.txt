@@ -1,0 +1,12 @@
+Part 1:
+
+--- SSH into the the server using command ssh root@3.95.9.91 followed by the given password.
+--- Found version of Linux distro using "cat /etc/*-release"
+--- Searched for running services. 
+--- Started with "apt update" ~~~ FAILED [INSUFFICIENT DISK SPACE]
+--- "apt-get autoclean" to reclaim space by removing unused packages/logs.
+--- Restarted server
+--- Performed "apt update"
+--- Installed "apt install apache2"
+--- Invoked apache2 "sudo systemctl status apache2"
+--- Verified On browser/terminal(curl) ----- APACHE INSTALLED SUCCESSFULLY!
